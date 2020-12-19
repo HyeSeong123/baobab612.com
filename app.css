@@ -1,0 +1,414 @@
+@font-face {
+	font-family: 'LotteMartDream';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff2')
+		format('woff2'),
+		url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamMedium.woff')
+		format('woff');
+}
+
+@font-face {
+	font-family: 'LotteMartDream';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff2')
+		format('woff2'),
+		url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamBold.woff')
+		format('woff');
+}
+
+@font-face {
+	font-family: 'LotteMartDream';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff2')
+		format('woff2'),
+		url('https://cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartDream/LotteMartDreamLight.woff')
+		format('woff');
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.con-min-width {
+	min-width: 320px;
+}
+
+.con {
+	max-width: 1100px;
+}
+
+.con {
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-jc-c {
+	justify-content: center;
+}
+
+.flex-ai-c {
+	align-items: center;
+}
+
+.flex-jc-sb {
+	justify-content: space-between;
+}
+
+.flex-jc-ar {
+	justify-content: space-around;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.height-100p {
+	height: 100%;
+}
+
+.width-100p {
+	width: 100%;
+}
+
+.bd-red {
+	border: 2px solid red;
+}
+
+.wrapper {
+	min-height: 100vh;
+}
+
+.top {
+	background-color: black;
+}
+
+.top-logo {
+	color: white;
+	font-size: 40px;
+}
+
+.p {
+	color: red;
+}
+
+.top-menu {
+	margin-top: 20px;
+}
+
+.top-menu>ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: -10px;
+}
+
+.top-menu>ul>li {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.join {
+	font-family: 'LotteMartDream';
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.join>a:hover {
+	color: red;
+}
+
+.login {
+	font-family: 'LotteMartDream';
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.login>a:hover {
+	color: red;
+}
+
+.top-menu ul>li>a {
+	font-family: 'LotteMartDream';
+	display: block;
+	font-size: 20px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.top-menu ul>li:hover>a {
+	color: black;
+	background-color: white;
+}
+
+.top-menu>ul>li:hover>a {
+	border-radius: 10px 10px 0 0;
+}
+
+.top-menu>ul>li:hover>ul {
+	display: block;
+}
+
+.top-menu>ul>li>ul {
+	background-color: black;
+	width: 100%;
+	border: 10px solid black;
+	border-top: 0;
+}
+
+.top-menu>ul>li>ul>li:last-child:hover>a {
+	border-radius: 0 0 10px 10px;
+}
+
+.middle {
+	font-family: 'LotteMartDream';
+	margin: 10px 0 0 10px;
+	position: relative;
+}
+
+.middle>.sentence-name {
+	font-size: 25px;
+}
+
+.middle>.sentence-name>span {
+	margin-top: 20px;
+}
+
+.logo-small {
+	font-size: 30px;
+}
+
+.bottom {
+	font-family: 'LotteMartDream';
+	background-color: black;
+	color: white;
+	height: 100px;
+}
+
+.section {
+	width: 100%;
+}
+
+.section-2 {
+	margin-left: 20px;
+}
+
+.move {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.제목 {
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.내용 {
+	margin-top: 40px;
+}
+
+.next {
+	margin-left: 10px;
+}
+
+.분류1 {
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid black;
+	border-top: 2px solid black;
+}
+
+.분류1 span {
+	display: inline-block;
+}
+
+.분류1:first-child {
+	border-right: 1px solid black;
+}
+
+.분류1:not (:first-child ){
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.분류1:last-child {
+	border-right: 2px solid black;
+}
+
+.분류1 {
+	height: 25px;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.분류-번호 {
+	min-width: 30px;
+	text-align: center;
+	border-left: 2px solid black;
+}
+
+.분류-작성일 {
+	min-width: 200px;
+	text-align: center;
+}
+
+.분류-작성자 {
+	min-width: 100px;
+	text-align: center;
+}
+
+.분류-제목 {
+	min-width: 200px;
+	text-align: center;
+}
+
+.분류-조회수 {
+	min-width: 60px;
+	text-align: center;
+}
+
+.분류-추천수 {
+	min-width: 60px;
+	text-align: center;
+}
+
+.리스트 {
+	display: inline-block;
+	padding: 0 10px;
+	border: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.리스트-번호 {
+	min-width: 30px;
+	text-align: center;
+	border-left: 2px solid black;
+}
+
+.리스트-작성일 {
+	min-width: 200px;
+	text-align: center;
+}
+
+.리스트-작성자 {
+	min-width: 100px;
+	text-align: center;
+}
+
+.리스트-제목 {
+	width: 200px;
+	text-align: left;
+}
+
+.리스트-제목 a {
+	display: inline-block;
+	width: 140px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.리스트-조회수 {
+	min-width: 60px;
+	text-align: center;
+}
+
+.리스트-추천수 {
+	min-width: 60px;
+	text-align: center;
+}
+
+.리스트-댓글수 {
+	min-width: 60px;
+	text-align: center;
+}
+
+.리스트:not (:first-child ) {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.리스트:last-child {
+	border-right: 2px solid black;
+}
+
+.리스트:first-child {
+	border-right: 1px solid black;
+}
+
+.리스트-리스트>.리스트 {
+	height: 20px;
+}
+
+.리스트-리스트>.리스트>a, .리스트-리스트>.리스트>span {
+	display: inlinc-block;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.리스트-리스트>.리스트 {
+	border-bottom: 2px solid black;
+}
+
+.리스트-제목:hover, .리스트-작성자:hover {
+	text-decoration: underline;
+}
+
+.other {
+	margin-bottom: 50px;
+}
+
+.page-box {
+	margin-top: 20px;
+}
+
+.page>a {
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	padding-left: 0;
+	padding-right: 0;
+	height: 30px;
+	min-width: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.page {
+	margin: 0 15px;
+}
+
+.page:hover>a {
+	border-color: #afafaf;
+	text-decoration: underline;
+}
+
+.article-page-menu__link--selected {
+	color: red;
+}
