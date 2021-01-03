@@ -9,12 +9,13 @@
 		position: relative;
 		width: 40px;
 		margin-left: 70px;
+		margin-right : 20px;
 	}
 	.x-icon {
 		display: inline-block;
 		width: 30px;
 		height: 5px;
-		background-color: black;
+		background-color: white;
 		position: absolute;
 		top: 30%;
 		transform: translateY(-30%);
@@ -41,14 +42,15 @@
 		position: absolute;
 		width: 200px;
 		top:100%;
-		right : -200px;
+		right : -180px;
 		background: #44A08D; /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #093637, #44A08D);
 		background: linear-gradient(to right, #093637, #44A08D);
-		transition : all 0.5s;
+		transition : right 0.5s ease;
 	}
 	.top-menu-1.active {
-		right : 0;
+		right : -30px;
+		transition : right 0.5s ease;
 	}
 	.top-menu-1.active>ul {
 		display: block;

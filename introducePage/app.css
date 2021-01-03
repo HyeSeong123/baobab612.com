@@ -115,6 +115,11 @@ span>img{
 	top : 10;
 	left : 10;
 }
+.study{
+	height:200px;
+	line-height: 200px;
+	margin-bottom : 150px;
+}
 .index>a{
 	font-size : 20px;
 }
