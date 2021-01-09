@@ -73,7 +73,7 @@
 .snip1341 a:after {
   -webkit-transition: all 0.35s linear;
   transition: all 0.35s linear;
-  background-color: #1abc9c;
+  background-color: #fff;
   color: transparent;
   content: attr(data-hover);
   top: 0;
@@ -83,6 +83,14 @@
   width: 100%;
   opacity: 0.4;
 }
+.git-icon{
+	font-size : 30px;
+}
+.snip1341 .git-icon:hover:after{
+  	content:"\f092";
+  	font-weight: 400;
+  	font-family: "Font Awesome 5 Brands";
+}
 .snip1341 div:hover a,
 .snip1341 div.current a {
   -webkit-transform: rotateY(90deg);
@@ -91,7 +99,7 @@
 }
 .snip1341 div:hover a:after {
   opacity: 1;
-  color: #ffffff;
+  color: black;
   -webkit-transform: rotateY(-90deg);
   transform: rotateY(-90deg);
 }
@@ -234,7 +242,7 @@
 /* 탑 로고 */
 
 /*상단 바 원 */
-.circle {
+.circle.active {
   position: absolute;
   width: 35px;
   height: 35px;
