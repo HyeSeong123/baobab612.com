@@ -61,7 +61,7 @@ function Editor__init() {
 			el: node,
 			previewStyle: 'vertical',
 			initialValue: initialValue,
-			height: 850,
+			height: 1000,
 			plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin, codepenPlugin]
 		});
 	});

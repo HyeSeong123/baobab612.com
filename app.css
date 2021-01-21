@@ -231,6 +231,7 @@ body {
 	height: 150px;
 	margin-bottom : 150px;
 	display:inline-block;
+	opacity : 0;
 }
 .balloon{
   min-height : 50px;
@@ -242,7 +243,6 @@ body {
   margin-bottom : 100px;
   transition : all 0.5s;
   display:block;
-  opacity : 0;
 }
 .balloon__추천 > span{
 	color : red;
@@ -259,8 +259,7 @@ body {
 .balloon:hover>div{
 	color : black;
 }
-.search__balloon-left{
-	left : 200px;
+.search__balloon1{
 	opacity : 1;
 }
 .balloon-left{
